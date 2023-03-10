@@ -1,0 +1,80 @@
+body {
+  background-color: #fcebb6;
+  color: #221811;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(images/background.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  background-color: brown;
+}
+nav a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+footer {
+  background-color: bisque;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  border-top: 2px #8c3826;
+  left: 0;
+  bottom: -1;
+  height: 100px;
+  width: 100%;
+  position: absolute bottom;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.externalcontainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  width: 50%;
+  float: right;
+  margin: auto;
+  padding: 15px 15px 15px 15px;
+}
+.text {
+  text-align: left;
+  width: 100%;
+  float: left;
+  margin: auto;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+.video {
+  padding-left: 5%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.label {
+  padding: 15px 15px 15px 15px;
+  align-items: center;
+}
+#wrapper {
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  max-width: 1000px;
+  text-align: left;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+#summary {
+  width: 50%;
+}
