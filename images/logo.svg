@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 687.28 687.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        font-family: NexaRustSlab-Black2, 'Nexa Rust Slab';
+        font-size: 65.46px;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        fill: silver;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1=".5" y1="343.64" x2="686.78" y2="343.64" gradientUnits="userSpaceOnUse">
+      <stop offset=".03" stop-color="#aa2d23"/>
+      <stop offset=".49" stop-color="#5d2521"/>
+      <stop offset=".83" stop-color="#231f20"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-2" cx="343.64" cy="343.64" r="343.14"/>
+  <polygon class="cls-3" points="90.42 220.63 342.07 52.47 593.72 220.63 593.72 473.48 342.99 641.02 90.42 474.5 90.42 220.63"/>
+  <polygon class="cls-3" points="162.7 248.86 523.81 248.86 343.64 559.81 162.7 248.86"/>
+  <polyline class="cls-1" points="90.42 220.63 162.7 248.86 91.21 474.13 343.64 559.81 593.31 473.07 522.74 248.86"/>
+  <polyline class="cls-1" points="162.7 248.86 342.07 53.01 522.74 248.86 593.72 220.63"/>
+  <line class="cls-1" x1="342.99" y1="639.22" x2="343.64" y2="557.39"/>
+  <text class="cls-6" transform="translate(297.27 387.06)"><tspan class="cls-4" x="0" y="0">2</tspan><tspan class="cls-5" x="45.1" y="0">0</tspan></text>
+</svg>
