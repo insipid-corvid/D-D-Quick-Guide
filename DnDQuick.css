@@ -139,3 +139,24 @@ footer {
   position: relative;
   top: 1px;
 }
+
+#exhausttable {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#exhausttable td {
+  border: 1px solid black;
+}
+#exhausttable th {
+  border: 1px solid black;
+}
+
+.pageLabel {
+  border-bottom: 1px solid black;
+  padding-left: 1%;
+}
+
+#homeLabel {
+  padding-left: 3%;
+}
