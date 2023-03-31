@@ -14,6 +14,10 @@ header {
   background-color: brown;
   padding: 15px 15px 15px 15px;
 }
+
+span {
+  color: red;
+}
 .navbar {
   overflow: hidden;
   background-color: #3b3836;
@@ -26,6 +30,15 @@ header {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+#char_form {
+  border: 10px double black;
+  margin: 2% 2% 2% 2%;
+  justify-content: center;
+  width: 50%;
+}
+.checkboxes {
+  font-size: small;
 }
 
 .dropdown {
@@ -97,6 +110,10 @@ footer {
   margin: auto;
   padding: 15px 15px 15px 15px;
 }
+
+.input_field {
+  width: 50%;
+}
 .text {
   text-align: left;
   width: 100%;
@@ -145,11 +162,16 @@ footer {
   text-align: center;
 }
 
+#exhausttable tr:nth-of-type(even) {
+  background-color: rgb(207, 169, 123);
+}
+
 #exhausttable td {
   border: 1px solid black;
 }
 #exhausttable th {
   border: 1px solid black;
+  background-color: rgb(207, 169, 123);
 }
 #pointtable {
   border: 2px solid black;
@@ -161,11 +183,43 @@ footer {
 
 #pointtable td {
   border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 #pointtable th {
   border: 1px solid black;
+  background-color: rgb(207, 169, 123);
+}
+#pointtable tr:nth-of-type(even) {
+  background-color: rgb(207, 169, 123);
 }
 
+#expwealthtable {
+  border: 10px groove black;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#expwealthtable td {
+  border: 1px solid black;
+  padding: 1px 1px 1px 1px;
+}
+#expwealthtable th {
+  border: 1px solid black;
+  background-color: rgb(207, 169, 123);
+}
+#expwealthtable tr:nth-of-type(even) {
+  background-color: rgb(207, 169, 123);
+}
+
+#return_home {
+  text-decoration: none;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-size: 16px;
+  padding: 2px 2px 2px 2px;
+}
 .pageLabel {
   border-bottom: 1px solid black;
   padding-left: 1%;
@@ -177,4 +231,17 @@ footer {
 
 .bolded {
   font-weight: bold;
+}
+
+.button {
+  margin-bottom: 1%;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #3b3836;
 }

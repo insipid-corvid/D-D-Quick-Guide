@@ -36,6 +36,155 @@
             <a href="external.html">External Resources</a>
           </div>
         </nav>
+        <h1 class="pageLabel">Character Creation Form</h1>
+        <div class="container">
+          <div class="text" id="char_form">
+            <form
+            id="character_form"
+            name="character_form"
+            action="completed_form.html"
+            method="get"
+          >
+            <div class="inputs">
+              <label for="name_input">Character name:</label> <br />
+              <input
+                type="text"
+                name="name_input"
+                id="name_input"
+                class="input_field"
+                required
+              />
+              <span id="name_error">*</span>
+            </div><br>
+            <div class="inputs">
+              <label for="lineage_input">Lineage:</label> <br />
+              <select name="lineage_input" id="lineage_input" form="character_form" class="select_field">
+                <option value=""></option>
+                <option value="dragonborn">Dragonborn</option>
+                <option value="dwarf">Dwarf</option>
+                <option value="elf">Elf</option>
+                <option value="gnome">Gnome</option>
+                <option value="half-elf">Half-Elf</option>
+                <option value="half-orc">Half-Orc</option>
+                <option value="halfling">Halfling</option>
+                <option value="human">Human</option>
+                <option value="tiefling">Tiefling</option>
+              </select>
+              <span id="lineage_error">*</span>
+            </div><br>
+            <div class="inputs">
+              <label for="class_input">Class:</label> <br />
+              <select name="class_input" id="class_input" form="character_form" class="select_field">
+                <option value=""></option>
+                <option value="artificer">Artificer</option>
+                <option value="barbarian">Barbarian</option>
+                <option value="bard">Bard</option>
+                <option value="cleric">Cleric</option>
+                <option value="druid">Druid</option>
+                <option value="fighter">Fighter</option>
+                <option value="monk">Monk</option>
+                <option value="paladin">Paladin</option>
+                <option value="ranger">Ranger</option>
+                <option value="rogue">Rogue</option>
+                <option value="sorcerer">Sorcerer</option>
+                <option value="warlock">Warlock</option>
+                <option value="wizard">Wizard</option>
+              </select>
+              <span id="class_error">*</span> 
+            </div><br>
+            <label for="proficiency_input">Proficiencies</label><span id="password_error">*</span> <br />
+            <div class="checkboxes">
+             
+
+              <input type="checkbox" id="acrobatics" name="proficiency_input" value="Acrobatics">
+              <label for="acrobatics">Acrobatics</label> <br />
+
+              <input type="checkbox" id="animal_handling" name="proficiency_input" value="Animal Handling">
+              <label for="animal_handling">Animal Handling</label> <br />
+
+              <input type="checkbox" id="arcana" name="proficiency_input" value="Arcana">
+              <label for="arcana">Arcana</label> <br />
+              <input type="checkbox" id="athletics" name="proficiency_input" value="Athletics">
+              <label for="athletics">Athletics</label> <br />
+
+              <input type="checkbox" id="deception" name="proficiency_input" value="Deception">
+              <label for="deception">Deception</label> <br />
+
+              <input type="checkbox" id="history" name="proficiency_input" value="History">
+              <label for="history">History</label> <br />
+
+              <input type="checkbox" id="insight" name="proficiency_input" value="Insight">
+              <label for="insight">Insight</label> <br />
+
+              <input type="checkbox" id="intimidation" name="proficiency_input" value="Intimidation">
+              <label for="intimidation">Intimidation</label> <br />
+
+              <input type="checkbox" id="investigation" name="proficiency_input" value="Investigation">
+              <label for="investigation">Investigation</label> <br />
+
+              <input type="checkbox" id="medicine" name="proficiency_input" value="Medicine">
+              <label for="medicine">Medicine</label> <br />
+
+              <input type="checkbox" id="nature" name="proficiency_input" value="Nature">
+              <label for="nature">Nature</label> <br />
+
+              <input type="checkbox" id="perception" name="proficiency_input" value="Perception">
+              <label for="perception">Perception</label> <br />
+
+              <input type="checkbox" id="performance" name="proficiency_input" value="Performance">
+              <label for="performance">Performance</label> <br />
+
+              <input type="checkbox" id="persuasion" name="proficiency_input" value="Persuasion">
+              <label for="persuasion">Persuasion</label> <br />
+
+              <input type="checkbox" id="religion" name="proficiency_input" value="Religion">
+              <label for="religion">Religion</label> <br />
+
+              <input type="checkbox" id="sleight_of_hand" name="proficiency_input" value="Sleight of Hand">
+              <label for="sleight_of_hand">Sleight of Hand</label> <br />
+
+              <input type="checkbox" id="stealth" name="proficiency_input" value="Stealth">
+              <label for="stealth">Stealth</label> <br />
+
+              <input type="checkbox" id="survival" name="proficiency_input" value="Survival">
+              <label for="survival">Survival</label> <br /> <br>
+
+              
+            </div>
+            <div class="inputs">
+              <label for="background_input">Background:</label> <br />
+              <input
+                type="text"
+                name="background_input"
+                id="background_input"
+                class="input_field"
+                placeholder="Charlatan"
+                required
+              />
+              <span id="background_input_error">*</span>
+            </div>
+            <div class="inputs">
+              <label for="languages_input">Languages:</label> <br />
+              <input
+                type="text"
+                name="languages_input"
+                id="languages_input"
+                class="input_field"
+                placeholder="Common, Dwarvish, Elvish, etc."
+              />
+              <span id="background_input_error"></span>
+            </div>
+            <br>
+            <div>
+              <input type="submit" value="Submit" id="submit_button" class="button" />
+            </div>
+          </form>
+          <footer>
+            <h3>Send me an Email</h3>
+            <a href="mailto: tkeating9965@conestogac.on.ca"
+              >tkeating9965@conestogac.on.ca</a
+            >
+          </footer>
       </div>
     </main>
   </body>
