@@ -1,42 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>5e Cheat Sheet</title>
-    <link rel="stylesheet" href="DnDQuick.css" />
-  </head>
-  <body>
-    <main>
-      <div id="wrapper">
-        <header>
-          <img src="images/logo.svg" class="logo" width="10%" />
-          <h1>&nbsp;D&D 5e Quick Guide</h1>
-        </header>
-        <nav class="nav-area">
-          <div class="navbar">
-            <a href="index.html">Home</a>
-            <div class="dropdown">
-              <button class="dropbtn">Character</button>
-              <div class="dropdown-content">
-                <a href="charquickguide.html">Character Creation Quick Guide</a>
-                <a href="charcreationform.html">Character Creation Form</a>
-                <a href="cheatsheet.html">Class Cheat Sheet</a>
-                <a href="expwealth.html">Experience and Wealth by Level</a>
-              </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5e Cheat Sheet</title>
+  <link rel="stylesheet" href="DnDQuick.css" />
+</head>
+
+<body>
+  <main>
+    <div id="wrapper">
+      <header>
+        <img src="images/logo.svg" class="logo" width="10%" />
+        <h1 id="title">&nbsp;D&D 5e Quick Guide</h1>
+      </header>
+      <nav class="nav-area">
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Character</button>
+            <div class="dropdown-content">
+              <a href="charquickguide.html">Character Creation Quick Guide</a>
+              <a href="charcreationform.html">Character Creation Form</a>
+              <a href="cheatsheet.html">Class Cheat Sheet</a>
+              <a href="expwealth.html">Experience and Wealth by Level</a>
             </div>
-            <div class="dropdown">
-              <button class="dropbtn">Combat</button>
-              <div class="dropdown-content">
-                <a href="actionscombat.html">Actions in Combat</a>
-                <a href="conditions.html">Conditions</a>
-              </div>
-            </div>
-            <a href="external.html">External Resources</a>
           </div>
-        </nav>
+          <div class="dropdown">
+            <button class="dropbtn">Combat</button>
+            <div class="dropdown-content">
+              <a href="actionscombat.html">Actions in Combat</a>
+              <a href="conditions.html">Conditions</a>
+            </div>
+          </div>
+          <a href="external.html">External Resources</a>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="text">
+          <h1 class="pageLabel">Class Cheat Sheet</h1>
+          <h2>Artificer</h2>
+          <p><b>Primary Attribute:</b> Intelligence</p>
+          <p><b>Secondary Attribute:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Dexterity</p>
+
+          <p><b>Suggested Feats:</b> Fey Touched, Tough, Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Fire Bolt, Guidance</li>
+            <li><i>1st Level:</i> Cure Wounds, Faerie Fire</li>
+            <li><i>2nd Level:</i> Invisibility, Web</li>
+            <li><i>3rd Level:</i> Haste, Fly</li>
+            <li><i>4th Level:</i> Freedom of Movement, Otiluke's Resilient Sphere</li>
+            <li><i>5th Level:</i> Animate Objects, Bigby's Hand</li>
+          </ul>
+          <h2>Barbarian</h2>
+          <p><b>Primary Attribute:</b> Strength</p>
+          <p><b>Secondary Attribute:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Dexterity</p>
+          <p><b>Suggested Feats:</b> Great Weapon Master, Mobile, Sentinel, Tough</p>
+
+          <h2>Bard</h2>
+          <p><b>Primary Attribute:</b> Charisma</p>
+          <p><b>Secondary Attributes:</b> Dexterity</p>
+          <p><b>Tertiary Attribute:</b> Constitution<b>&nbsp;OR&nbsp;</b>Intelligence</p>
+          <p><b>Suggested Feats:</b> Actor, Fey Touched, Inspiring Leader, Resilient(CON)</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Vicious Mockery, Minor Illusion</li>
+            <li><i>1st Level:</i> Faerie Fire, Healing Word, Silvery Barbs*</li>
+            <li><i>2nd Level:</i> Invisibility, Shatter</li>
+            <li><i>3rd Level:</i> Dispel Magic, Hypnotic Pattern</li>
+            <li><i>4th Level:</i> Dimension Door, Polymorph</li>
+            <li><i>5th Level:</i> Animate Objects, Teleportation Circle</li>
+            <li><i>6th Level:</i> Eyebite, Mass Suggestion</li>
+            <li><i>7th Level:</i> Forcecage, Teleport</li>
+            <li><i>8th Level:</i> Dominate Monster, Glibness</li>
+            <li><i>9th Level:</i> Foresight, True Polymorph</li>
+          </ul>
+          <p><b>Suggested Magical Secrets Spells</b></p>
+          <ul>
+            <li><i>Lore Bard Level 6 Secrets:</i> Aura of Vitality, Counterspell, Fireball, Haste</li>
+            <li><i>Level 10 Secrets:</i> Find Greater Steed, Circle of Power, Shadow of Moil</li>
+            <li><i>Level 14 Secrets:</i> Contingency, Heal, Plane Shift</li>
+            <li><i>Level 18 Secrets:</i> Illusory Dragon, Mass Heal, Wish</li>
+          </ul>
+          <p><i>*Some DMs ban these spells, talk to your DM before taking it</i></p>
+
+          <h2>Cleric</h2>
+          <p><b>Primary Attribute:</b> Wisdom</p>
+          <p><b>Secondary Attributes:</b> Strength<b>&nbsp;OR&nbsp;</b>Dexterity</p>
+          <p><b>Tertiary Attribute:</b> Constitution</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Guidance, Light, Sacred Flame, Toll the Dead</li>
+            <li><i>1st Level:</i> Cure Wounds, Guiding Bolt, Healing Word</li>
+            <li><i>2nd Level:</i> Hold Person, Prayer of Healing, Spiritual Weapon</li>
+            <li><i>3rd Level:</i> Aura of Vitality*, Dispel Magic, Revivify, Spirit Guardians</li>
+            <li><i>4th Level:</i> Banishment, Death Ward</li>
+            <li><i>5th Level:</i> Holy Weapon, Mass Cure Wounds</li>
+            <li><i>6th Level:</i> Heal, Heroes' Feast</li>
+            <li><i>7th Level:</i> Conjure Celestial, Regenerate</li>
+            <li><i>8th Level:</i> Antimagic Field, Holy Aura</li>
+            <li><i>9th Level:</i> Mass Heal</li>
+          </ul>
+          <p><i>*Some DMs ban these spells, talk to your DM before taking it</i></p>
+
+          <h2>Druid</h2>
+          <p><b>Primary Attribute:</b> Wisdom</p>
+          <p><b>Secondary Attribute:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Dexterity<b>&nbsp;OR&nbsp;</b>Intelligence</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Guidance, Produce Flame, Thorn Whip</li>
+            <li><i>1st Level:</i> Entangle, Faerie Fire, Healing Word</li>
+            <li><i>2nd Level:</i> Heat Metal, Pass Without Trace, Spike Growth</li>
+            <li><i>3rd Level:</i> Aura of Vitality*, Dispel Magic, Erupting Earth</li>
+            <li><i>4th Level:</i> Freedom of Movement, Polymorph, Wall of Fire</li>
+            <li><i>5th Level:</i> Cone of Cold, Mass Cure Wounds, Wrath of Nature</li>
+            <li><i>6th Level:</i> Heal, Sunbeam, Transport via Plants</li>
+            <li><i>7th Level:</i> Fire Storm, Reverse Gravity</li>
+            <li><i>8th Level:</i> Animal Shapes, Feeblemind</li>
+            <li><i>9th Level:</i> Foresight, Shapechange</li>
+          </ul>
+          <p><i>*Some DMs ban these spells, talk to your DM before taking it</i></p>
+
+          <h2>Fighter</h2>
+          <p><b>Primary Attribute:</b> Strength<b>&nbsp;OR&nbsp;</b>Dexterity</p>
+          <p><b>Secondary Attributes:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Wisdom</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Warcaster</p>
+
+          <h2>Monk</h2>
+          <p><b>Primary Attribute:</b> Dexterity</p>
+          <p><b>Secondary Attributes:</b> Wisdom</p>
+          <p><b>Tertiary Attribute:</b> Constitution</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Warcaster</p>
+
+          <h2>Paladin</h2>
+          <p><b>Primary Attribute:</b> Strength<b>&nbsp;OR&nbsp;</b>Dexterity</p>
+          <p><b>Secondary Attributes:</b> Charisma</p>
+          <p><b>Tertiary Attribute:</b> Constitution</p>
+          <p><b>Suggested Feats:</b> Great Weapon Master, Mobile, Shield Master, Sentinel</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>1st Level:</i> Bless, Cure Wounds, Shield of Faith, Wrathful Smite</li>
+            <li><i>2nd Level:</i> Branding Smite, Find Steed</li>
+            <li><i>3rd Level:</i> Aura of Vitality, Blinding Smite, Crusader's Mantle</li>
+            <li><i>4th Level:</i> Find Greater Steed, Staggering Smite</li>
+            <li><i>5th Level:</i> Banishing Smite, Circle of Power, Destructive Wave</li>
+          </ul>
+
+          <h2>Ranger</h2>
+          <p><b>Primary Attribute:</b> Strength<b>&nbsp;OR&nbsp;</b>Dexterity</p>
+          <p><b>Secondary Attributes:</b> Wisdom</p>
+          <p><b>Tertiary Attribute:</b> Constitution<b>&nbsp;OR&nbsp;</b>Intelligence</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Sharpshooter, Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>1st Level:</i> Absorb Elements, Cure Wounds, Hunter's Mark</li>
+            <li><i>2nd Level:</i> Healing Spirit, Pass Without Trace, Spike Growth</li>
+            <li><i>3rd Level:</i> Conjure Animals, Lightning Arrow</li>
+            <li><i>4th Level:</i> Freedom of Movement, Guardian of Nature</li>
+            <li><i>5th Level:</i> Steel Wind Strike, Swift Quiver, Wrath of Nature</li>
+          </ul>
+
+          <h2>Rogue</h2>
+          <p><b>Primary Attribute:</b> Dexterity</p>
+          <p><b>Secondary Attributes:</b> Intelligence<b>&nbsp;OR&nbsp;</b>Wisdom<b>&nbsp;OR&nbsp;</b>Charisma</p>
+          <p><b>Tertiary Attribute:</b> Constitution</p>
+          <p><b>Suggested Feats:</b> Lucky, Mobile, Sentinel, Skill Expert</p>
+
+          <h2>Sorcerer</h2>
+          <p><b>Primary Attribute:</b> Charisma</p>
+          <p><b>Secondary Attributes:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Dexterity</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Metamagic Adept, Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Acid Splash, Fire Bolt, Mage Hand, Mind Sliver, Minor Illusion, Prestidigitation</li>
+            <li><i>1st Level:</i> Mage Armor<b>&nbsp;OR&nbsp;</b>Shield, Magic Missile, Sleep</li>
+            <li><i>2nd Level:</i> Mirror Image, Misty Step, Scorching Ray, Web</li>
+            <li><i>3rd Level:</i> Counterspell, Fly, Haste, Hypnotic Pattern</li>
+            <li><i>4th Level:</i> Banishment, Dimension Door, Polymorph</li>
+            <li><i>5th Level:</i> Animate Objects, Bigby's Hand, Synaptic Static</li>
+            <li><i>6th Level:</i> Chain Lightning, Disintegrate</li>
+            <li><i>7th Level:</i> Reverse Gravity, Teleport</li>
+            <li><i>8th Level:</i> Demiplane, Dominate Monster</li>
+            <li><i>9th Level:</i> Meteor Swarm, Wish</li>
+          </ul>
+
+          <h2>Warlock</h2>
+          <p><b>Primary Attribute:</b> Charisma</p>
+          <p><b>Secondary Attributes:</b> Dexterity<b>&nbsp;OR&nbsp;</b>Constitution</p>
+          <p><b>Tertiary Attribute:</b> Intelligence</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Spell Sniper, Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Eldritch Blast, Mind Sliver, Minor Illusion, Prestidigitation</li>
+            <li><i>1st Level:</i> Armor of Agathys, Hex</li>
+            <li><i>2nd Level:</i> Darkness, Invisibility </li>
+            <li><i>3rd Level:</i> Counterspell, Fear, Thunder Step</li>
+            <li><i>4th Level:</i> Banishment, Dimension Door, Shadow of Moil, Raulothim's Psychic Lance</li>
+            <li><i>5th Level:</i> Danse Macabre, Synaptic Static, Teleportation Circle</li>
+            <li><i>6th Level:</i> Eyebite, Mass Suggestion</li>
+            <li><i>7th Level:</i> Forcecage, Plane Shift</li>
+            <li><i>8th Level:</i> Glibness, Maddening Darkness</li>
+            <li><i>9th Level:</i> True Polymorph, Wish</li>
+          </ul>
+
+          <h2>Wizard</h2>
+          <p><b>Primary Attribute:</b> Intelligence</p>
+          <p><b>Secondary Attributes:</b> Constitution</p>
+          <p><b>Tertiary Attribute:</b> Dexterity<b>&nbsp;OR&nbsp;</b>Wisdom</p>
+          <p><b>Suggested Feats:</b> Fey Touched, Resilient(CON), Warcaster</p>
+          <p><b>Suggested Spells</b></p>
+          <ul>
+            <li><i>Cantrips:</i> Fire Bolt, Mage Hand, Mind Sliver, Prestidigitation, Toll the Dead</li>
+            <li><i>1st Level:</i> Absorb Elements, Detect Magic, Find Familiar, Mage Armor, Magic Missile, Shield</li>
+            <li><i>2nd Level:</i> Invisibility, Misty Step, Scorching Ray, Web </li>
+            <li><i>3rd Level:</i> Counterspell, Dispel Magic, Fireball, Fly, Haste, Slow</li>
+            <li><i>4th Level:</i> Banishment, Dimension Door, Greater Invisibility, Polymorph, Wall of Fire</li>
+            <li><i>5th Level:</i> Animate Objects, Bigby's Hand, Synaptic Static, Teleportation Circle, Wall of Force</li>
+            <li><i>6th Level:</i> Chain Lighting, Contingency, Disintegrate</li>
+            <li><i>7th Level:</i> Forcecage, Plane Shift, Reverse Gravity, Teleport</li>
+            <li><i>8th Level:</i> Demiplane, Illusory Dragon, Maze, </li>
+            <li><i>9th Level:</i> Invulnerability, True Polymorph, Wish</li>
+          </ul>
+
+        </div>
+        <footer>
+          <h3>Send me an Email</h3>
+          <a href="mailto: tkeating9965@conestogac.on.ca">tkeating9965@conestogac.on.ca</a>
+        </footer>
       </div>
-    </main>
-  </body>
+    </div>
+    </div>
+  </main>
+</body>
+
 </html>

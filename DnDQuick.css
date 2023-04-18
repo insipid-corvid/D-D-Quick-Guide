@@ -12,11 +12,17 @@ header {
   align-items: left;
   justify-content: left;
   background-color: brown;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.515), brown);
   padding: 15px 15px 15px 15px;
 }
 
 span {
   color: red;
+}
+#title {
+  padding-top: 15px;
+  color:#ffffff;
+  font-style: oblique;
 }
 
 hr {
